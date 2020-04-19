@@ -1,9 +1,39 @@
-/* #v6_pl_rightmod_attfeed
+.gn_nav_list > li:nth-child(2),  .gn_nav_list > li:nth-child(3), .gn_nav_list > li:nth-child(4)
 {
-	display: none;
+	display: none!important;
 }
 
-[id^="v6_pl_rightmod"]
+#v6_pl_rightmod_attfeed, #v6_trustPagelet_recom_member, #v6_pl_rightmod_noticeboard, #v6_pl_rightmod_rank, .key, .gn_search_v2 > .placeholder
 {
-	display: none;
+	display: none!important;
+}
+/* 
+[action-type='feed_list_item']
+{
+
+	margin-bottom: 20px!important;
 } */
+
+.WB_main
+{
+	background-color: white!important;
+}
+
+.WB_frame
+{
+	background-color: rgba(200,200,200, 0.25)!important;
+	box-shadow: 1px, 1px, 2px, 2px, gray !important;
+	z-index: 1;
+	/* filter: blur(20px)!important; */
+}
+
+.WB_frame .levtxt
+{
+	color: rgb(50, 50, 50);
+}
+
+.WB_cardwrap
+{
+	box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.2) !important;
+	margin-bottom: 20px!important;
+}
