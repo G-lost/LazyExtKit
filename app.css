@@ -22,7 +22,7 @@
 .WB_frame
 {
 	background-color: rgba(200,200,200, 0.25)!important;
-	box-shadow: 1px, 1px, 2px, 2px, gray !important;
+	/* box-shadow: 1px, 1px, 2px, 2px, gray !important; */
 	z-index: 1;
 	/* filter: blur(20px)!important; */
 }
@@ -32,11 +32,18 @@
 	color: rgb(50, 50, 50);
 }
 
-.WB_cardwrap
+.WB_cardwrap, blockquote, .SW_fun_bg, .S_bg1, .SW_fun_bg_active, .send_weibo .input
 {
-	box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.2) !important;
+	box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.3) !important;
 	margin-bottom: 20px!important;
-	background-color: rgba(255,255,255, 0) !important;
+	background-color: rgba(255,255,255, 0.2) !important;
+}
+
+.W_btn_b, .W_input, .S_bg2, .tab > li
+{
+	/* box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.2) !important; */
+	margin: 0px;
+	background-color: rgba(255,255,255, 0.2) !important;
 }
 
 /* .S_bg2, blockquote, .W_btn_b, .W_input, .SW_fun_bg {

@@ -1,5 +1,11 @@
 $(function() 
 {
+  setTimeout(() => {
+    $('.b').remove();
+  }, 1000);
+    
+
+  
   /*
   console.log("loaded");
 
