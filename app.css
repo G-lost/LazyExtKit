@@ -39,11 +39,17 @@
 	background-color: rgba(255,255,255, 0.2) !important;
 }
 
-.W_btn_b, .W_input, .S_bg2, .tab > li
+.W_btn_b, .W_input
 {
 	/* box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.2) !important; */
 	margin: 0px;
 	background-color: rgba(255,255,255, 0.2) !important;
+}
+
+.S_bg2, .tab > li
+{
+	margin: 0px;
+	background-color: rgba(255,255,255, 0) !important;
 }
 
 /* .S_bg2, blockquote, .W_btn_b, .W_input, .SW_fun_bg {
